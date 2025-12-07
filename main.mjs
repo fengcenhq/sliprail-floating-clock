@@ -1,3 +1,6 @@
+/**
+ * @type {import('@sliprail/sdk').Extension}
+ */
 export default {
   shortcuts: [
     {
@@ -12,6 +15,9 @@ export default {
         'zh-hans':
           '一个始终置顶的浮动时钟窗口，精确显示当前时间和秒数。非常适合需要精确掌握时间的任务和监控场景。',
       },
+      /**
+       * @param context {import('@sliprail/sdk').ShortcutContext}
+       */
       handle: (context) => {
         const existingWindows = context.getWindows();
         if (existingWindows.length > 0) {
@@ -45,6 +51,9 @@ export default {
         'en': 'Closes the floating clock window.',
         'zh-hans': '关闭悬浮时钟窗口。',
       },
+      /**
+       * @param context {import('@sliprail/sdk').ShortcutContext}
+       */
       handle: (context) => {
         const windows = context.getWindows({
           scope: 'extension',
