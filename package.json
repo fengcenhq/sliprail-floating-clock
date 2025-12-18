@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A floating clock window that always stays on top",
   "devDependencies": {
-    "@sliprail/sdk": "^0.1.14",
+    "@sliprail/sdk": "^0.1.16",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.3"

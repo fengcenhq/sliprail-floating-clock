@@ -18,14 +18,14 @@ export default {
       /**
        * @param context {import('@sliprail/sdk').ShortcutContext}
        */
-      handle: (context) => {
+      handle: async (context) => {
         const existingWindows = context.getWindows();
         if (existingWindows.length > 0) {
           existingWindows[0].show();
           return;
         }
 
-        const win = context.createWindow({
+        await context.createWindow({
           htmlFile: 'clock.html',
           title: 'Floating Clock',
           width: 200,
@@ -37,7 +37,6 @@ export default {
           skipTaskbar: true,
           hasShadow: true,
         });
-        win.show();
       },
     },
     {
