@@ -6,7 +6,7 @@ A floating clock window that always stays on top of other applications. Displays
 
 Click the button below to install this extension directly in Sliprail:
 
-[![Install in Sliprail](https://img.shields.io/badge/Install_in_Sliprail-Click_Here-blue?style=for-the-badge)](https://sliprail.fengcen.io/install-extension?id=5f2ff6bf-ed0b-4cbf-a00a-9c466c663d27)
+[![Install in Sliprail](https://img.shields.io/badge/Install_in_Sliprail-Click_Here-blue?style=for-the-badge)](https://sliprail.fengcen.io/install?id=5f2ff6bf-ed0b-4cbf-a00a-9c466c663d27)
 
 **Note:** If Sliprail is not installed on your computer, the button will not work. Please download and install Sliprail from the [official website](https://sliprail.fengcen.io) first.
 
