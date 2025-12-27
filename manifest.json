@@ -1,5 +1,13 @@
 {
   "id": "5f2ff6bf-ed0b-4cbf-a00a-9c466c663d27",
+  "name": {
+    "en": "Floating Clock",
+    "zh-hans": "悬浮时钟"
+  },
+  "description": {
+    "en": "A floating clock window that always stays on top of other applications. Displays the current time with precise seconds, perfect for time-sensitive tasks and monitoring.",
+    "zh-hans": "一个始终置顶的浮动时钟窗口，精确显示当前时间和秒数。非常适合需要精确掌握时间的任务和监控场景。"
+  },
   "icon": "icon.svg",
   "main": "main.mjs"
 }
