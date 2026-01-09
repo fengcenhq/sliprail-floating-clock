@@ -32,14 +32,26 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 42px;
-        letter-spacing: 3px;
+        font-size: 38px;
+        letter-spacing: 2px;
         font-weight: bold;
         user-select: none;
         -webkit-app-region: drag;
         border-radius: 12px;
         border: 1px solid #333;
         box-sizing: border-box;
+      }
+      #clock {
+        display: flex;
+        justify-content: center;
+      }
+      #clock span {
+        display: inline-block;
+        width: 0.6em;
+        text-align: center;
+      }
+      #clock .colon {
+        width: 0.3em;
       }
     </style>
   </head>
@@ -53,8 +65,16 @@
         const hours = String(now.getHours()).padStart(2, '0');
         const minutes = String(now.getMinutes()).padStart(2, '0');
         const seconds = String(now.getSeconds()).padStart(2, '0');
-        document.getElementById('clock').textContent =
-          `${hours}:${minutes}:${seconds}`;
+        const timeStr = `${hours}:${minutes}:${seconds}`;
+        const clockEl = document.getElementById('clock');
+        clockEl.innerHTML = timeStr
+          .split('')
+          .map((char) =>
+            char === ':'
+              ? '<span class="colon">:</span>'
+              : `<span>${char}</span>`,
+          )
+          .join('');
       }
 
       setInterval(updateClock, 50);
