@@ -4,7 +4,7 @@
 export default {
   shortcuts: [
     {
-      id: 'OpenFloatingClock',
+      id: 'open-floating-clock',
       displayName: {
         'en': 'Open Floating Clock',
         'zh-hans': '打开悬浮时钟',
@@ -40,7 +40,7 @@ export default {
       },
     },
     {
-      id: 'CloseFloatingClock',
+      id: 'close-floating-clock',
       displayName: {
         'en': 'Close Floating Clock',
         'zh-hans': '关闭悬浮时钟',
