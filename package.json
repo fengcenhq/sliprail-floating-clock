@@ -2,15 +2,15 @@
   "name": "sliprail-floating-clock",
   "version": "1.0.0",
   "description": "A floating clock window that always stays on top",
-  "devDependencies": {
-    "@sliprail/sdk": "^0.1.16",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.2.7",
-    "prettier": "^3.7.3"
-  },
   "scripts": {
-    "prepare": "husky",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@sliprail/sdk": "^0.1.23",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.5.1",
+    "prettier": "^3.9.6"
   },
   "lint-staged": {
     "*.{js,mjs,ts,html,css,json,md}": "prettier --write"

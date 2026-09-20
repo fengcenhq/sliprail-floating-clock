@@ -1,0 +1,94 @@
+{
+  "hash": "8e08fb3c430479a7a2164113767211a3",
+  "hashes": {
+    "./": "409c85b4d31c3cf9a99144001ab76831"
+  },
+  "nodeMajor": 24,
+  "nodes": {
+    "@sliprail/sdk": {
+      "c": true,
+      "d": {
+        "@types/react": {
+          "s": "^19.2.17",
+          "v": "19.3.0"
+        }
+      },
+      "v": "0.1.23"
+    },
+    "@types/react": {
+      "d": {
+        "csstype": {
+          "s": "^3.2.2",
+          "v": "3.2.3"
+        }
+      },
+      "v": "19.3.0"
+    },
+    "csstype": {
+      "v": "3.2.3"
+    },
+    "husky": {
+      "c": true,
+      "v": "9.1.7"
+    },
+    "lint-staged": {
+      "c": true,
+      "d": {
+        "picomatch": {
+          "s": "^4.0.7"
+        },
+        "string-argv": {
+          "s": "^0.3.2"
+        },
+        "tinyexec": {
+          "s": "^1.3.1"
+        },
+        "yaml": {
+          "o": true,
+          "s": "^2.9.0",
+          "v": "2.9.1"
+        }
+      },
+      "v": "17.5.1"
+    },
+    "picomatch": {
+      "v": "4.0.7"
+    },
+    "prettier": {
+      "c": true,
+      "v": "3.9.8"
+    },
+    "string-argv": {
+      "v": "0.3.2"
+    },
+    "tinyexec": {
+      "v": "1.3.1"
+    },
+    "yaml": {
+      "o": true,
+      "v": "2.9.1"
+    }
+  },
+  "packages": {
+    "./": {
+      "c": true,
+      "d": {
+        "@sliprail/sdk": {
+          "s": "^0.1.23"
+        },
+        "husky": {
+          "s": "^9.1.7"
+        },
+        "lint-staged": {
+          "s": "^17.5.1"
+        },
+        "prettier": {
+          "s": "^3.9.6",
+          "v": "3.9.8"
+        }
+      },
+      "n": "sliprail-floating-clock",
+      "v": "./"
+    }
+  }
+}
