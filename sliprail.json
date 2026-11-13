@@ -9,5 +9,7 @@
     "zh-hans": "一个始终置顶的浮动时钟窗口，精确显示当前时间和秒数。非常适合需要精确掌握时间的任务和监控场景。"
   },
   "icon": "icon.svg",
-  "main": "main.mjs"
+  "extension": {
+    "main": "main.mjs"
+  }
 }
